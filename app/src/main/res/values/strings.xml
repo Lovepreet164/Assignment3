@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Assignment3</string>
+    <string-array name="meals">
+        <item>Select meal</item>
+        <item>Fruity Salmon Salad</item>
+        <item>Ravioli Lasagna</item>
+        <item>Skillet Nachos</item>
+        <item>Sweet Chili and Orange Chicken</item>
+        <item>Stromboli</item>
+        <item>Glazed Meatballs</item>
+        <item>White Cheddar Mac and Cheese</item>
+        <item>Caesar Chicken with Feta</item>
+        <item>Green Tomato BLT</item>
+        <item>Salmon and spad Salad</item>
+
+    </string-array>
 </resources>

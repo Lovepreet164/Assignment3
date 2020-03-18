@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkBox = findViewById(R.id.checkBox);
        ET = findViewById(R.id.editText3);
         final EditText pricetext = findViewById(R.id.editText);
-        final double prices[] = {0,10,12,19,45,23,16,9,15,28,12};
+        final double prices[] = {0,10,12,19,45,32,16,9,15,28,12};
 
         final int[] srcArray = {
                 R.drawable.meal1,

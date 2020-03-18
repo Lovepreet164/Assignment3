@@ -22,9 +22,9 @@
         android:id="@+id/spinner"
         android:layout_width="340dp"
         android:layout_height="52dp"
-        android:layout_marginTop="32dp"
         android:entries="@array/meals"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_begin="245dp" />
 
     <SeekBar
         android:id="@+id/seekBar"
@@ -74,10 +74,10 @@
         android:id="@+id/textView2"
         android:layout_width="118dp"
         android:layout_height="39dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         android:text="Tip"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
@@ -85,13 +85,12 @@
         android:id="@+id/editText3"
         android:layout_width="133dp"
         android:layout_height="43dp"
-        android:layout_marginTop="28dp"
         android:editable="false"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="0.0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup6" />
 
@@ -99,10 +98,9 @@
         android:id="@+id/checkBox"
         android:layout_width="174dp"
         android:layout_height="33dp"
-        android:layout_marginTop="32dp"
         android:text="Confirm Your Order"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
@@ -110,10 +108,9 @@
         android:id="@+id/buttonOrder"
         android:layout_width="129dp"
         android:layout_height="43dp"
-        android:layout_marginTop="32dp"
         android:text="ORDER"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
@@ -151,7 +148,7 @@
         android:layout_height="32dp"
         android:text="Total Price"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editText3" />
 
@@ -159,10 +156,11 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:text="Select Quantity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

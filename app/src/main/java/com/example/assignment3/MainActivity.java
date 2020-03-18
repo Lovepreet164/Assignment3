@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("Info","Lovepreet ere");
+                Log.i("Info","You have Ordered");
 
             }
         });
